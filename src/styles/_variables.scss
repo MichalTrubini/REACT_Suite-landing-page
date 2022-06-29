@@ -1,0 +1,34 @@
+$WhiteColor:#FAF8F6;
+$CreamColor: #F3EDE7;
+$GreyBlueColor:#49566D;
+$DarkBlueColor:#172339;
+$PurpleColor:#A060FF;
+$PinkColor:#CB30E3;
+$OrangeColor:#FFA84E;
+
+//ui
+
+$background-body:$WhiteColor;
+$background-footer:$CreamColor;
+$background-card-dark:$DarkBlueColor;
+
+
+$color-h1:$DarkBlueColor;
+$color-par-light:$CreamColor;
+$color-par-dark:$DarkBlueColor;
+
+//mixins
+
+@mixin buttonStyle($padding,$color,$backgroundColor) {
+    border-radius: 6px;
+    border: 1px solid #172339;
+    background-color: $backgroundColor;
+    padding:$padding;
+    color:$color;
+}
+
+@mixin flexCenter() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

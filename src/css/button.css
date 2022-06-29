@@ -1,0 +1,17 @@
+.button-nav {
+  border-radius: 6px;
+  border: 1px solid #172339;
+  background-color: transparent;
+  padding: 1.2rem 1.6rem;
+  color: #172339;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.14px;
+  line-height: 2.4rem;
+  cursor: pointer;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #172339;
+  color: #FAF8F6;
+}/*# sourceMappingURL=button.css.map */

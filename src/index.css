@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
-
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Epilogue', sans-serif;
 }
 
 body {
-  background-color: #3f3f3f;
+  background-color: #FAF8F6;
 }
 

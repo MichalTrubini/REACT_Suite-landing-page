@@ -1,0 +1,48 @@
+@import 'variables';
+
+.hero {
+    padding-top: 5.6rem;
+
+    &__heading {
+        padding-top: 2.7rem;
+        background: url("../assets/pattern-curved-line-1.svg") no-repeat right top;
+        background-size: 150px;
+        font-size: 3.8rem;
+        font-weight: 400;
+        letter-spacing: -0.53px;
+        line-height: 4.4rem;
+        color: $DarkBlueColor;
+        margin-bottom: 3.2rem;
+    }
+
+    &__heading--bold {
+        font-weight: 700;
+    }
+
+    &__paragraph {
+        font-size: 1.6rem;
+        color: $GreyBlueColor;
+        line-height: 2.8rem;
+        letter-spacing: 0.09px;
+        margin-bottom: 3.2rem;
+    }
+
+    &__button {
+        border-radius: 6px;
+        border: 1px solid $DarkBlueColor;
+        background-color: $DarkBlueColor;
+        padding: 1.5rem 3.2rem;
+        color:$WhiteColor;
+        font-size: 1.8rem;
+        font-weight: 700;
+        letter-spacing: -0.18px;
+        line-height: 3.2rem;
+        cursor: pointer;
+        margin-bottom: 5.6rem;
+    }
+
+    &__button:hover, &__button:focus {
+        background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+        border: 1px solid transparent;
+    }
+}
