@@ -1,0 +1,22 @@
+@import 'variables';
+
+.footer {
+    background-color: $background-footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.3rem;
+    padding: 19rem 0 8rem;
+
+    &__social-block {
+        display: flex;
+        gap: 2.8rem;
+    }
+
+    &__copyright {
+        font-size: 1.5rem;
+        line-height: 3.2rem;
+        letter-spacing: 0.08px;
+        color: $GreyBlueColor;
+    }
+}
