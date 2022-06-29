@@ -1,0 +1,47 @@
+@import 'variables';
+
+.testimony {
+    background-color: $DarkBlueColor;
+    border-radius: 15px;
+
+    &__content {
+        color: $WhiteColor;
+        text-align: center;
+        padding: 1rem 1.6rem;
+    }
+
+    &__heading {
+        font-size: 4rem;
+        font-weight: 400;
+        margin-bottom: 4rem;
+        letter-spacing: -0.42px;
+        line-height: 4.8rem;
+    }
+
+    &__heading--bold {
+        font-weight: 700;
+    }
+
+    &__quote {
+        color:$CreamColor;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        letter-spacing: 0.09px;
+        margin-bottom: 4rem;
+    }
+
+    &__name {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        font-weight: 700;
+        letter-spacing: -0.18px;
+        line-height: 3.2rem;
+    }
+
+    &__company {
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+}

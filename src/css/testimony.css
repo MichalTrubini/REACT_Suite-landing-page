@@ -1,0 +1,39 @@
+.testimony {
+  background-color: #172339;
+  border-radius: 15px;
+}
+.testimony__content {
+  color: #FAF8F6;
+  text-align: center;
+  padding: 1rem 1.6rem;
+}
+.testimony__heading {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  letter-spacing: -0.42px;
+  line-height: 4.8rem;
+}
+.testimony__heading--bold {
+  font-weight: 700;
+}
+.testimony__quote {
+  color: #F3EDE7;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.09px;
+  margin-bottom: 4rem;
+}
+.testimony__name {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  line-height: 3.2rem;
+}
+.testimony__company {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}/*# sourceMappingURL=testimony.css.map */

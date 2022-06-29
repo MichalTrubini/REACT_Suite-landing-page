@@ -3,7 +3,8 @@
 }
 .hero__heading {
   padding-top: 2.7rem;
-  background: url("../assets/pattern-curved-line-1.svg") no-repeat right top;
+  background: url("../assets/pattern-curved-line-1.svg") no-repeat;
+  background-position-x: 80%;
   background-size: 150px;
   font-size: 3.8rem;
   font-weight: 400;
@@ -11,6 +12,7 @@
   line-height: 4.4rem;
   color: #172339;
   margin-bottom: 3.2rem;
+  max-width: 34.3rem;
 }
 .hero__heading--bold {
   font-weight: 700;
