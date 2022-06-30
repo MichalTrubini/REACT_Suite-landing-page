@@ -17,3 +17,9 @@ main {
     padding-bottom: 380px;
   }
 }
+
+@media screen and (min-width:1172px) {
+  main {
+    padding-bottom: 550px;;
+  }
+}

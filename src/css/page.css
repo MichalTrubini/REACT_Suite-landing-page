@@ -6,4 +6,9 @@
   .page {
     padding: 0 3.6rem;
   }
+}
+@media screen and (min-width: 1440px) {
+  .page {
+    padding: 0 16.5rem;
+  }
 }/*# sourceMappingURL=page.css.map */

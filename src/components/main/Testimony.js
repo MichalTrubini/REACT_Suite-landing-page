@@ -1,5 +1,5 @@
 import jeremyImage from '../../assets/image-jeremy-small.webp';
-import jeremyImage2x from '../../assets/image-jeremy-small@2x.webp';
+import jeremyImage2x from '../../assets/image-jeremy-large.webp';
 import '../../css/testimony.css'
 
 function Testimony() {
@@ -9,7 +9,7 @@ function Testimony() {
                 <picture>
                         <source 
                             srcSet={jeremyImage2x}
-                            media="(min-width:800px)"
+                            media="(min-width:1172px)"
                         />
                         <img 
                             src={jeremyImage}
@@ -20,7 +20,7 @@ function Testimony() {
             </div>
             <div className='testimony__oval'></div>
             <div className='testimony__content'>
-                <h2 className='testimony__heading'>It just <span className='testimony__heading--bold'>works</span></h2>
+                <h2 className='testimony__heading'>It just <span className='testimony__heading--bold'>works.</span></h2>
                 <p className='testimony__quote'>“I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate tools to do the same job. This thing is a miracle worker.”</p>
                 <p className='testimony__name'>Jeremy Robinson</p>
                 <p className='testimony__company'>cmo, fylo</p>

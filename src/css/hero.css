@@ -37,6 +37,7 @@
   line-height: 3.2rem;
   cursor: pointer;
   margin-bottom: 5.6rem;
+  transition: 0.75s;
 }
 .hero__button:hover, .hero__button:focus {
   background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
@@ -79,5 +80,39 @@
   }
   .hero__stats {
     margin-top: 8.8rem;
+  }
+}
+@media screen and (min-width: 1172px) {
+  .hero {
+    max-width: 110rem;
+    display: flex;
+    gap: 9.6rem;
+    margin: auto;
+    padding-top: 6.7rem;
+  }
+  .hero__about {
+    width: 82.4rem;
+  }
+  .hero__heading {
+    font-size: 7.2rem;
+    letter-spacing: -1px;
+    line-height: 7.8rem;
+    max-width: 63.5rem;
+    padding-top: 10.3rem;
+    background-position-x: 85%;
+    background-position-y: 20%;
+    background-size: 300px;
+  }
+  .hero__paragraph {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin-bottom: 5.2rem;
+  }
+  .hero__image {
+    max-height: 60rem;
+  }
+  .hero__stats {
+    display: flex;
+    margin-top: 10rem;
   }
 }/*# sourceMappingURL=hero.css.map */

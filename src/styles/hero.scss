@@ -42,6 +42,7 @@
         line-height: 3.2rem;
         cursor: pointer;
         margin-bottom: 5.6rem;
+        transition: 0.75s;
     }
 
     &__button:hover, &__button:focus {
@@ -92,6 +93,46 @@
 
         &__stats {
             margin-top: 8.8rem;
+        }
+    }
+}
+
+@media screen and (min-width:1172px) {
+    .hero {
+        max-width: 110rem;
+        display: flex;
+        gap: 9.6rem;
+        margin: auto;
+        padding-top: 6.7rem;
+
+        &__about {
+            width: 82.4rem;
+        }
+
+        &__heading {
+            font-size: 7.2rem;
+            letter-spacing: -1px;
+            line-height: 7.8rem;
+            max-width: 63.5rem;
+            padding-top: 10.3rem;
+            background-position-x: 85%;
+            background-position-y: 20%;
+            background-size: 300px;
+        }
+
+        &__paragraph {
+            font-size: 1.8rem;
+            line-height: 3.2rem;
+            margin-bottom: 5.2rem;
+        }
+
+        &__image {
+            max-height: 60rem;
+        }
+
+        &__stats {
+            display: flex;
+            margin-top: 10rem;
         }
     }
 }

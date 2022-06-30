@@ -8,16 +8,18 @@ import '../../css/footer.css'
 function Footer() {
     return ( 
     <footer className="footer">
-        <div className="footer__logo-container">
-            <img src={siteLogo} alt="Suite"/>
-        </div>
-        <div className="footer__copyright">
-            <p>Copyright - Suite</p>
-        </div>
-        <div className="footer__social-block">
-            <img src={facebookLogo} alt="facebook"/>
-            <img src={twitterLogo} alt="twitter"/>
-            <img src={instagramLogo} alt="instagram"/>
+        <div className='footer-container'>
+            <div className="footer__logo-container">
+                <img src={siteLogo} alt="Suite"/>
+            </div>
+            <div className="footer__copyright">
+                <p>Copyright - Suite</p>
+            </div>
+            <div className="footer__social-block">
+                <img src={facebookLogo} alt="facebook"/>
+                <img src={twitterLogo} alt="twitter"/>
+                <img src={instagramLogo} alt="instagram"/>
+            </div>
         </div>
     </footer> 
     );

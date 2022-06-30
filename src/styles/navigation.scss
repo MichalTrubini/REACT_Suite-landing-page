@@ -10,3 +10,12 @@
           padding-top: 4rem;
      }
 }
+
+@media screen and (min-width:1172px) {
+     .nav {
+          max-width: 110rem;
+          margin: auto;
+          padding-top: 5rem;
+     }
+
+}
