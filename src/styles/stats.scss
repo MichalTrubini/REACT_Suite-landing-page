@@ -26,3 +26,11 @@
         color: $GreyBlueColor;
     }
 }
+
+@media screen and (min-width:686px) {
+    .stats {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+}

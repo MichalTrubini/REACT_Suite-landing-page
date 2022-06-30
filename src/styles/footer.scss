@@ -20,3 +20,11 @@
         color: $GreyBlueColor;
     }
 }
+
+@media screen and (min-width:686px) {
+    .footer {
+        padding: 53.6rem 4rem 7.2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

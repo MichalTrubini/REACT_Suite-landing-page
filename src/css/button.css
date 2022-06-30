@@ -14,4 +14,13 @@
 .button-nav:hover, .button-nav:focus {
   background-color: #172339;
   color: #FAF8F6;
+}
+
+@media screen and (min-width: 686px) {
+  .button-nav {
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.16px;
+  }
 }/*# sourceMappingURL=button.css.map */

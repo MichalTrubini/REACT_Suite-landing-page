@@ -70,3 +70,16 @@
         line-height: 2.6rem;
     }
 }
+
+@media screen and (min-width:686px) {
+    .testimony {
+        margin-right: 4rem;
+        margin-left: 4rem;
+        position: absolute;
+        bottom: -450px;
+
+        &__content {
+            padding: 7.1rem 5.8rem 6.4rem;
+        }
+    }
+}

@@ -41,4 +41,43 @@
 .hero__button:hover, .hero__button:focus {
   background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
   border: 1px solid transparent;
+}
+
+@media screen and (min-width: 686px) {
+  .hero {
+    padding-top: 8rem;
+    margin-bottom: 10rem;
+  }
+  .hero__about {
+    display: flex;
+    position: relative;
+    max-height: 48.2rem;
+  }
+  .hero__content {
+    position: absolute;
+  }
+  .hero__image-container {
+    margin-left: auto;
+  }
+  .hero__image {
+    max-height: 48.2rem;
+  }
+  .hero__heading {
+    font-size: 5.6rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.78px;
+    max-width: 49rem;
+    margin-bottom: 4rem;
+    padding-top: 8.8rem;
+    background-position-x: 80%;
+    background-position-y: 25%;
+    background-size: 200px;
+  }
+  .hero__paragraph {
+    max-width: 35rem;
+    margin-bottom: 4rem;
+  }
+  .hero__stats {
+    margin-top: 8.8rem;
+  }
 }/*# sourceMappingURL=hero.css.map */

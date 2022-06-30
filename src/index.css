@@ -8,3 +8,12 @@ body {
   background-color: #FAF8F6;
 }
 
+main {
+  position: relative;
+}
+
+@media screen and (min-width:686px) {
+  main {
+    padding-bottom: 380px;
+  }
+}

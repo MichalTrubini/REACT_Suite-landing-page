@@ -20,4 +20,12 @@
   font-size: 1.6rem;
   letter-spacing: 2.5px;
   color: #49566D;
+}
+
+@media screen and (min-width: 686px) {
+  .stats {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3rem;
+  }
 }/*# sourceMappingURL=stats.css.map */

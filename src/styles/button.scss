@@ -17,3 +17,12 @@
     background-color: $DarkBlueColor;
     color: $WhiteColor;
 }
+
+@media screen and (min-width:686px) {
+    .button-nav {
+        padding: 1.2rem 2.4rem;
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        letter-spacing: -0.16px;
+    }
+}

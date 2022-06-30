@@ -6,12 +6,17 @@ function Testimony() {
     return ( 
         <section className="testimony">
             <div className="testimony__image-container">
-                <img srcSet={`${jeremyImage} 343w,
-                                 ${jeremyImage2x} 686w`}
-                    sizes="(max-width: 575px) 343px, 686px"
-                    src={jeremyImage}
-                    alt="hero">
-                </img>
+                <picture>
+                        <source 
+                            srcSet={jeremyImage2x}
+                            media="(min-width:800px)"
+                        />
+                        <img 
+                            src={jeremyImage}
+                            alt="Jeremy"
+                            className='testimony__image'
+                        />
+                </picture>
             </div>
             <div className='testimony__oval'></div>
             <div className='testimony__content'>

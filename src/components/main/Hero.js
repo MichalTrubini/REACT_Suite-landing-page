@@ -1,11 +1,13 @@
-import imageHero from '../../assets/image-hero-landscape.webp'
-import imageHero2x from '../../assets/image-hero-landscape@2x.webp'
+import imageHero from '../../assets/image-hero-landscape.webp';
+import imageHero2x from '../../assets/image-hero-landscape@2x.webp';
+import imageHeroLarge from '../../assets/image-hero-portrait.webp';
 import Button from '../UI/Button';
 import '../../css/hero.css'
 import Stats from './Stats';
 import Page from '../UI/Page';
 
 function Hero () {
+
     return ( 
         <Page>
             <section className="hero">
@@ -16,12 +18,21 @@ function Hero () {
                         <Button className="hero__button">Request Beta access</Button>
                     </div>
                     <div className="hero__image-container">
-                        <img srcSet={`${imageHero} 343w,
-                                    ${imageHero2x} 686w`}
-                            sizes="(max-width: 375px) 343px, 686px"
+                    <picture>
+                        <source 
+                            srcSet={imageHeroLarge}
+                            media="(min-width:686px)"
+                        />
+                        <source 
+                            srcSet={imageHero2x}
+                            media="(min-width:376px)"
+                        />
+                        <img 
                             src={imageHero}
-                            alt="hero">
-                        </img>
+                            alt="hero"
+                            className='hero__image'
+                        />
+                    </picture>
                     </div>
                 </div>
                 <div className="hero__stats">

@@ -49,3 +49,49 @@
         border: 1px solid transparent;
     }
 }
+
+@media screen and (min-width:686px) {
+    .hero {
+        padding-top: 8rem;
+        margin-bottom: 10rem;
+
+        &__about {
+            display: flex;
+            position:relative;
+            max-height: 48.2rem;
+        }
+
+        &__content {
+            position: absolute;
+        }
+
+        &__image-container {
+            margin-left: auto;
+        }
+
+        &__image {
+            max-height: 48.2rem,;
+        }
+
+        &__heading {
+            font-size: 5.6rem;
+            line-height: 6.4rem;
+            letter-spacing: -0.78px;
+            max-width: 49rem;
+            margin-bottom: 4rem;
+            padding-top: 8.8rem;
+            background-position-x: 80%;
+            background-position-y: 25%;
+            background-size: 200px;
+        }
+
+        &__paragraph {
+            max-width: 35rem;
+            margin-bottom: 4rem;
+        }
+
+        &__stats {
+            margin-top: 8.8rem;
+        }
+    }
+}

@@ -59,4 +59,16 @@
   letter-spacing: 2.5px;
   font-size: 1.6rem;
   line-height: 2.6rem;
+}
+
+@media screen and (min-width: 686px) {
+  .testimony {
+    margin-right: 4rem;
+    margin-left: 4rem;
+    position: absolute;
+    bottom: -450px;
+  }
+  .testimony__content {
+    padding: 7.1rem 5.8rem 6.4rem;
+  }
 }/*# sourceMappingURL=testimony.css.map */

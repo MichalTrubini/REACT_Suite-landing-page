@@ -2,4 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 2.4rem;
+}
+
+@media screen and (min-width: 686px) {
+  .nav {
+    padding-top: 4rem;
+  }
 }/*# sourceMappingURL=navigation.css.map */
