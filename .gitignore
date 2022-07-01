@@ -27,7 +27,6 @@ yarn-error.log*
 *.xd
 .prettierignore
 
-package.json
 README-template.md
 README.md
 package-lock.json
